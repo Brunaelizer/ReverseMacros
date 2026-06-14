@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ReverseMacros.API/ReverseMacros.API.csproj" />
+  <Project Path="ReverseMacros.Application/ReverseMacros.Application.csproj" Id="a06c06e4-c077-4873-b316-61ec82f7ea8f" />
+  <Project Path="ReverseMacros.Domain/ReverseMacros.Domain.csproj" Id="a499f6c5-88df-4d93-a7bc-76c38b8e9988" />
+  <Project Path="ReverseMacros.Infrastructure/ReverseMacros.Infrastructure.csproj" Id="cff87642-71dc-49c3-a947-cb57de066cea" />
+</Solution>
