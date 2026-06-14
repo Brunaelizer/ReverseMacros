@@ -1,8 +1,11 @@
 using Scalar.AspNetCore;
+using ReverseMacros.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var apiVersioningBuilder = builder.Services.AddApiVersioning(options =>
 {

@@ -12,8 +12,18 @@
     <PackageReference Include="Asp.Versioning.Http" Version="10.0.0" />
     <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="10.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.23.0" />
     <PackageReference Include="Scalar.AspNetCore" Version="2.16.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReverseMacros.Application\ReverseMacros.Application.csproj" />
+    <ProjectReference Include="..\ReverseMacros.Domain\ReverseMacros.Domain.csproj" />
+    <ProjectReference Include="..\ReverseMacros.Infrastructure\ReverseMacros.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
